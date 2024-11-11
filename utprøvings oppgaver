@@ -1,0 +1,40 @@
+Last ned visual studio code og python:
+   -Python: https://www.python.org/downloads/
+   -Visual studio code: https://code.visualstudio.com/
+ 
+Åpne visual studio code:
+   -Lag en fil som heter «Navn».py
+
+Forklare programmet
+
+
+Aldri brukt python før:
+   -Kroner til dollar oppgave
+   -Hva skjer i denne koden?, hvordan fungerer den?
+
+       kr = input("Hvor mange kr har du? :")
+# Denne gjør kr input fra en string til en float
+       kr = float(kr)
+# Denne konverterer kroner fra NOK til USD
+      dollar = kr / 11.04
+      print(f"Du har ${dollar} i dollar.")
+
+Har brukt python før:
+  -Finn feilen i koden.
+      navn = input("Hva heter du? :")
+      svar = input("Har du hund? (ja/nei) :")
+ 
+# Sjekker om svare brukeren gir er ja eller nei
+    if svar == "ja":
+        print(f"Så gøy at du har hund, {navn}!")
+    elif svar = "nei":
+        print(f"Hvorfor ikke, {navn}?")
+else:
+    print("Du må svare ja eller nei")
+
+Ekspert level:
+   -Skriv en kode som kjører gjennom en liste med tall og finner det største tallet i den listen.
+ 
+ 
+
+ 
